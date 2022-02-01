@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: zeus-hello
+spec:
+  selector:
+    matchLabels:
+      app: zeus-hello
+  template:
+    metadata:
+      labels:
+        app: zeus-hello
+    spec:
+      containers:
+      - name: app
+        image: zeus-hello:latest
+        ports:
+        - name: http
+          containerPort: 8080
+          protocol: TCP
+
