@@ -7,4 +7,4 @@ resources:
 images:
 - name: zeus-hello
   newName: 821405583049.dkr.ecr.eu-central-1.amazonaws.com/zeus-hello
-  newTag: 873bacc7faf614fbc4f9b619aea220934c3f31d3
+  newTag: e8781ff0ab237b444aec0834f4787328894940e6
