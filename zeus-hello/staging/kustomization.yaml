@@ -3,3 +3,7 @@ kind: Kustomization
 
 resources:
 - ../base
+images:
+- name: zeus-hello
+  newName: zeus-hello
+  newTag: c22892049c4de09378db84a0f7fdf524656d38d6
