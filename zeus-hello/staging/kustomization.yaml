@@ -6,5 +6,5 @@ resources:
 - ../base
 images:
 - name: zeus-hello
-  newName: zeus-hello
-  newTag: c22892049c4de09378db84a0f7fdf524656d38d6
+  newName: 821405583049.dkr.ecr.eu-central-1.amazonaws.com/zeus-hello
+  newTag: 873bacc7faf614fbc4f9b619aea220934c3f31d3
