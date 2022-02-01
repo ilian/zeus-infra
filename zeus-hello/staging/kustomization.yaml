@@ -6,4 +6,5 @@ resources:
 - ../base
 images:
 - name: zeus-hello
-  newName: FQIN
+  newName: 821405583049.dkr.ecr.eu-central-1.amazonaws.com/zeus-hello
+  newTag: 585b65a4ca871793b2edc513ecdaaba4ac086001
